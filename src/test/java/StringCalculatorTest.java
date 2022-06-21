@@ -11,13 +11,13 @@ class StringCalculatorTest {
         assertEquals(value, 10);
     }
     @Test
-    void testAddNegative() { // tests that the function is throwing exception for 
+    void testAddNegative() { // tests that the function is throwing exception for negative values
         boolean thrown;
         int value = 0;
         try {
             thrown = false;
             StringCalculator calc = new StringCalculator();
-            value = StringCalculator.add("1,2,3,4,124124,12512512");
+            value = StringCalculator.add("1,-2,-3,-4,124124,12512512");
         } catch (Exception e) {
             thrown = true;
             assert(true);
