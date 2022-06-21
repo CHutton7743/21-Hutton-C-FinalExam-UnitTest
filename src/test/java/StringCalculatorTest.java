@@ -16,7 +16,7 @@ class StringCalculatorTest {
         try {
             thrown = false;
             StringCalculator calc = new StringCalculator();
-            int value = StringCalculator.add("1,2,3,4,124124,12512512");
+            int value = StringCalculator.add("1,-2,3,4,124124,12512512");
         } catch (Exception e) {
             thrown = true;
             assert(true);
