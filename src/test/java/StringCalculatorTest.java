@@ -22,6 +22,5 @@ class StringCalculatorTest {
             thrown = true;
             assert(true);
         }
-        assertEquals(value, 10);
     }
 }
