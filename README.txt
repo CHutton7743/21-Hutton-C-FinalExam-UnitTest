@@ -1,3 +1,5 @@
+[![Build Status](https://app.travis-ci.com/CHutton7743/21-Hutton-C-FinalExam-UnitTest.svg?branch=main)](https://app.travis-ci.com/CHutton7743/21-Hutton-C-FinalExam-UnitTest)
+
 Extending the add method for StringCalculator class to cover the new requirements above
 
 Steps to complete:
